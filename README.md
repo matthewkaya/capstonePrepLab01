@@ -16,6 +16,7 @@ Create a virtual environment:
 
 ```bash
 python -m venv .venv
+source .venv/bin/activate
 ```
 
 Install the requirements:
@@ -31,7 +32,7 @@ This program does not require any external Python packages.
 Run the program with:
 
 ```bash
-python bmi_category_reporter.py
+python bmi.py
 ```
 
 ## Example
